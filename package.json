@@ -10,7 +10,8 @@
     "prepare": "husky",
     "lint": "eslint \"src/**/*.{ts,js}\"",
     "format": "prettier --write .",
-    "test": "vitest --passWithNoTests"
+    "test": "vitest --passWithNoTests",
+    "typecheck": "tsc --noEmit"
   },
   "lint-staged": {
     "src/**/*.{ts,js,css,md}": [
